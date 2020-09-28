@@ -1,0 +1,73 @@
+body{
+    height: 608px;
+    background-image: linear-gradient(rgb(104, 91, 105),rgb(22, 21, 22));
+}
+.h1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: oblique;
+}
+.logo{
+    display: block;
+    margin: auto;
+    width:60px ;
+    height: 60px;
+    border-radius: 100%;
+}
+
+.container{
+    max-width: 800px;
+    margin: auto;
+    height: 60vh;
+    border-radius: 10px;
+    background-image: url("../phone.jpg");
+    background-repeat: no-repeat;
+    overflow-y: auto;
+}
+.left{
+ background-color:#4e4946;
+ color: aliceblue;
+ border-radius: 2px;
+ float: left;
+ clear:both;
+ border-radius: 5px;
+ padding: 1em;
+ font-family: monospace;
+ font-size: large;
+ padding: 1em;
+ margin: 3px;
+}
+.right{
+ background-color:#4e4946;
+ color: aliceblue;
+ border-radius: 2px;
+ float: right;
+ clear:both;
+ border-radius: 5px;
+ padding: 1em;
+ font-family: monospace;
+ font-size: large;
+ padding: 1em;
+ margin: 3px;
+}
+
+#text-container{
+    display: block;
+    margin: auto;
+    text-align: center;
+    max-width: 980px;
+    width: 100%;
+}
+#msginp{
+    width: 70%;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 15px;
+
+}
+.btn{
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 5px;
+    margin-top: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

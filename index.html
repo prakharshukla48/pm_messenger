@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PS Messenger</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav>
+        <img class="logo" src="chat.png" alt="logo here ">
+        <center><h1 style="color: aqua;">PS Messenger</h1></center>
+    </nav>
+    <div class="container">
+        <div class="msg right">Prakhar: hello</div>
+        <div class="msg left">Surri: hello</div>
+    </div>
+    <div class="send">
+        <form action="#" id="text-container">
+            <input type="text" name="msginp" id = "msginp">
+            <button class='btn' type="Submit">Submit</button>
+        </form> 
+    </div>
+
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"  ></script>
+    <script defer src = "js/client.js" ></script>
+</body>
+</html>
